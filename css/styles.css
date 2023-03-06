@@ -23,7 +23,17 @@ body{
     position: relative;
     align-self: center;
     /*background-image: linear-gradient(180deg, #11151C8c 50%, #11151C8c 50%), url('../images/topimage.jpg');*/
-    background-color: red;
+}
+
+#interests{
+    text-align: center;
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
 
 #tcs-work{
@@ -118,4 +128,17 @@ p{
     padding: 5px 35px;
     color:white;
     font-size: 15px;
+}
+
+.interest_paragraph{
+    line-height: 1.7;
+}
+
+.interest-box{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 250px;
+    overflow: hidden;
+    margin: auto;
 }
